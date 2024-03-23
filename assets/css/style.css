@@ -34,7 +34,7 @@ body {
 .card {
   background: var(--clr-5);
   border-radius: 1rem;
-  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  box-shadow: 6px 6px 16px 1px var(--clr-3);
   max-width: 21.875rem;
 }
 
@@ -56,8 +56,9 @@ body {
   background: var(--clr-2);
   border-radius: 0.875rem;
   color: var(--clr-1);
+  font-size: 0.625rem;
   font-weight: 600;
-  padding: 0.375rem 1rem;
+  padding: 0.375rem 1.125rem;
 }
 
 .card__body {
@@ -81,5 +82,5 @@ body {
 }
 
 .small {
-  font-size: 0.625rem;
+  font-size: 0.75rem;
 }
